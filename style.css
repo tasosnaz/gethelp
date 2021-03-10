@@ -1,0 +1,597 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(./fonts/ProximaNovaRegular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(./fonts/ProximaNovaBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(./fonts/SourceSansPro-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: 'SourceSansPro', serif;
+}
+
+header {
+    background: url("./images/Slider.png") bottom center no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    padding-bottom: 50px;
+    height: 600px;
+}
+
+#topbar {
+    height: 10px;
+}
+
+nav#main {
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/************************* TOP MENU *************************/
+
+
+#top-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 65px 0 0 0;
+}
+
+
+#arkadia {
+    display: flex;
+    margin-right: 40%;
+    margin-left: 3%;
+}
+
+.cola1 {
+    margin-top: 26px;
+}
+
+.cola2 {
+    color: white;
+    padding-left: 5px;
+}
+
+.cola2 p {
+    height: 5px;
+}
+
+
+#storm {
+    display: flex;
+    color: white;
+    
+}
+
+#colb1 {
+    margin-top: 28px;
+}
+
+#colb2 {
+    padding-left: 5px;
+}
+
+#colb2 a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+#colb2 p {
+    height: 5px;
+}
+
+.size {
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 3px;
+    letter-spacing: 2px;
+}
+
+
+#sign-select {
+    width: 270px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    display: none;
+    
+}
+
+#sign-select a {
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+#sign-select select {
+    background-color: transparent;
+    color: rgb(107, 98, 98);
+    border: 0;
+    
+}
+
+.svg-flag {
+    
+    padding-top: 4px;
+}
+
+.p-fonts {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/*********************** MOBILE-OPTIONS *************************/
+
+.mobile-options select {
+    background-color: transparent;
+    border: none;
+}
+
+.mobile-flags-select {
+    margin: 0 0 11px 0;
+    text-align: right;
+    background-color: #f5f4f4;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+}
+
+#close-btn {
+    cursor: pointer;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+
+.svg-flag2 {
+    margin: 15px 0 0 0;
+}
+
+.mobile-options select {
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.mobile-options a {
+    text-align: center;
+}
+
+.img-a {
+    display: flex;
+   
+   justify-content: center;
+}
+
+.img-a a {
+    padding: 2px 0 0 5px;
+
+}
+
+::marker {
+    text-decoration: none;
+}
+
+/*********************** END TOP-MENU *************************/
+
+/*********************** MAIN MENU ***************************/
+
+#logo {
+    display: block;
+    border-radius: 100%;
+}
+
+#logo img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin:  auto;
+}
+
+.transperent {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 30px
+}
+
+#main-menu {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    align-items: center;
+    height: 200px;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: white;
+    display: none;
+    border-radius: 4px;
+    width: 95%;
+    height: 600px;
+    margin:auto;
+    top: -6%;
+    left: 6%;
+    
+}
+
+#main-menu ul {
+    position: absolute;
+    display: list-item;
+    top: 0;
+    transform: translateX(-4%);
+    transition: transform 1s ease;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    background-color: #f5f4f4;
+    width: 100%;
+    height: 600px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-radius: 4px;
+    /* display: block; */
+    
+}
+
+#main ul ul {
+    text-decoration: none;
+}
+
+
+
+#main-menu li {
+    margin: 14px 0 0 20px;
+    list-style-type: none;   
+    
+}
+
+
+#main-menu a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #002868;
+    text-decoration: none;
+}
+
+#main-menu a:hover {
+    color: #BF0A30;
+}
+
+
+span.symbol {
+    display: inline-block;
+    float: right;
+    margin: 0 15px 0 0;
+    font-size: 20px;
+}
+
+#svg-1 {
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    display: none;
+}
+
+.return  {
+    margin: 0 0 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 100px;
+}
+
+.return svg {
+    margin: 20px 10px 0 0;
+}
+
+.return p {
+    color: #002868;
+}
+
+
+/*********************** END MAIN MENU *************************/
+
+/*********************** BURGER MENU ***************************/
+
+.burger {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.hline {
+    height: 1px;
+    width: 26px;
+    margin: .4rem 0;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform .5s ease, opacity .5s ease;
+}
+
+
+/*********************** END BURGER MENU ***********************/
+
+
+@media (min-width: 640px) {
+    /* .container {
+        max-width: 600px;
+    } */
+    header {
+        background: url("./images/Slider.png") bottom center no-repeat;
+        background-size: cover;
+        height: 750px;
+        padding-bottom: 0;
+    }
+    
+    #arkadia {
+        margin: 0;
+    }
+
+    .svg-flag2 {
+        margin: 15px 0 0 0;
+    }
+ 
+    #sign-select {
+        position: relative;
+    }
+
+    #main-menu {
+       width: 80%;
+       left: auto;
+    }
+
+    #main-menu a {
+        font-size: 12px;
+    }
+
+    #main-menu ul {
+        width: 98%;
+        margin-left: 20px;
+    }
+
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 920px;
+    }
+    nav#main {
+        background-color: white;
+        display: block;
+        height: 60px;
+        width: 930px;
+    }
+
+    #topbar {
+        height: 70px;
+    }
+    
+    #top-menu {
+        justify-content: unset;
+        padding: 0;
+        margin-left: 25%;
+        width: 86%;
+    }
+
+    #arkadia {
+        margin-right: 20px;
+    }
+
+    #storm {
+        margin: 0;
+    }
+
+    .cola1 {
+        margin-top: 34px;
+    }
+    
+    #colb1 {
+        margin-top: 34px;
+    }
+
+    .size {
+        font-size: 12px;
+        font-weight: bold;
+        
+        letter-spacing: 2px;
+    }
+
+    #logo {
+        position: absolute;
+        border: 10px solid #AB0427;
+        left: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 1;
+    }
+
+    #logo img {
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+        margin: 0;
+    }
+
+    .mobile-options {
+        display: none;
+    }
+
+
+    #main-menu {
+        position: relative;
+        display: flex;
+        width: 630px;
+        height: 60px;
+        padding: 0 20px 0 220px;
+        left: 0;
+        top: 0;
+    }
+    #main-menu li {
+        margin: 0 5px 0 0;
+    }
+    #main-menu ul {
+        position: absolute;
+        background-color: white;
+        top: 75px;
+        left: 200px;;
+        border-radius: 4px;
+        list-style-type: none;
+        width: 220px;
+        height: 365px;
+        padding: 0 0 20px 20px;
+        /* display: flex; */
+        display: none;
+    }
+    #main-menu ul li {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    span.symbol {
+        display: none;
+    }
+
+    .return {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1240px;
+    }
+    nav#main {
+        width: 100%;
+    }
+    
+    #top-menu {
+        margin-left: 20%;
+    }
+
+    #arkadia {
+        margin-right: 20px;
+    }
+
+    #logo img {
+        width: 180px;
+        height: 180px;
+    }
+  
+    #main-menu {
+        position: relative;
+        padding: 0 60px 0 280px;
+        width: 902px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #main-menu ul {
+        position: absolute;
+        background-color: white;
+        top: 75px;
+        left: 240px;
+        border-radius: 4px;
+        list-style-type: none;
+        width: 260px;
+        height: 365px;
+        padding: 0 0 20px 20px;
+        display: none;
+    }
+
+    #main-menu ul li {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    /* #main li:hover>ul {
+        display: block;
+    } */
+
+    #main-menu ul li {
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+
+    #main-menu li {
+        margin: 0 10px 0 0;
+    }
+
+    #main-menu a {
+        font-size: 14px;
+    }
+
+
+    #sign-select {
+        margin-left: 50%;
+    }
+
+
+    #svg-1 {
+        margin: 0 15px 0 0;
+    }
+
+}    
+
+@media (min-width: 1440px) {
+    nav#main {
+        width: 107%;
+        right: 30px;
+    }
+
+    #top-menu {
+        margin-left: 18%;
+    }
+
+   
+    
+    #sign-select {
+        margin-left: 57%;
+    }
+
+    #main-menu {
+        position: flex;
+        width: 980px;
+        height: 60px;
+    }
+
+    #main-menu li {
+        margin-right: 17px;
+    }
+}
